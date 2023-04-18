@@ -82,12 +82,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    position: relative;
     text-align: center;
     margin: 0 20px;
     justify-content: left;
     box-shadow: 0 1px #4C566A;
     padding-bottom: 50px;
+    position: relative;
   }
 
   .color-panel {
@@ -109,6 +109,8 @@ body {
     font-family: "muliextralight";
     font-size: 20;
     float: middle;
+    justify-content: center;
+    display: block;
 }
 
 .number {
@@ -132,6 +134,8 @@ body {
     color: #000;
     font-family: "mulilight";
     margin-right: 50px;
+    justify-content: left;
+    display: block;
 }
 
 .color-container .title {
@@ -244,7 +248,7 @@ body {
 .color-explained {
     text-align: center;
     width: 100%;
-    max-width: 80%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -328,11 +332,11 @@ button {
 .collapsible {
     background-color: transparent;
     cursor: pointer;
-    border: 2px solid #CACACA;
+    border: 2px solid #88C0D0;
     border-radius: 5px;
     font-size: 18px;
     width: 80%;
-    color: #88C0D0;
+    color: #f2f2f2;
     letter-spacing: 0.72px;
     font-family: "mulilight";
     margin: 7px;
