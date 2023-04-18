@@ -1,3 +1,5 @@
+/* <----------------- nav begin -----------------> */
+
 nav {
     max-width:1366px;
     width:100%;
@@ -52,6 +54,10 @@ nav #logo {
     margin-left: 25px;
 }
 
+/* <----------------- nav end -----------------> */
+
+/* <----------------- body -----------------> */
+
 h2 {
     text-decoration: none;
     margin: auto 20px;
@@ -72,7 +78,9 @@ body {
     max-width:1366px;
 }
 
-/*color containers*/
+/* <----------------- body end -----------------> */
+
+/* <----------------- color containers ----------------->*/
 .polar, .snow, .frost, .aurora {
     text-align: left;
 
@@ -173,9 +181,9 @@ body {
     margin-left: 25px;
 }
 
-/*End color containers*/
+/* <----------------- End color containers ----------------->*/
 
-/* Color boxes */
+/* <----------------- Color boxes -----------------> */
 
 .nord0 {
     background-color: #2E3440;
@@ -241,9 +249,9 @@ body {
     background-color: #b48ead;
  }
 
- /* end color boxes */
+/* <----------------- end color boxes -----------------> */
  
-/*Color explained*/
+/* <----------------- Color explained -----------------> */
 
 .color-explained {
     text-align: center;
@@ -380,7 +388,7 @@ button {
 }
 
 .collapsible:after {
-    content: '\2261'; /* Unicode character for "plus" sign (+) */
+    content: '\2261'; /* Unicode character */
     font-size: 30px;
     color: white;
     float: right;
@@ -388,10 +396,12 @@ button {
   }
   
   .active:after {
-    content: "\2261"; /* Unicode character for "minus" sign (-) */
+    content: "\2261"; /* Unicode character */
   }
 
-  /* colors explained end */
+/* <----------------- colors explained end -----------------> */
+
+/* <----------------- fonts begin -----------------> */
 
   .fonts {
     width: 100%;
