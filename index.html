@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stylesheet</title>
+    <link rel="stylesheet" href="./resources/fonts/stylesheet.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<section class="container">
+    <nav>
+        <p id="logo">Stylesheet</p>
+        <div class="nav-bar">
+        <p><a href="#swatch">Swatches </a><a href="#fonts">Fonts</a></p>
+        </div>
+    </nav>
+    <p class="number">1</p>
+    <p class="swatch">Color swatch</p>
+    <section class="color-container">
+    <div>
+        <div class="label_polar">
+            <p class="title">Polar Night</p>
+            <div class="color-panel nord0">
+                <p class="color-label">nord0</p>
+                <p class="color-hex">#2E3440</p>
+            </div>
+            <div class="color-panel nord1">
+                <p class="color-label nord1">nord1</p>
+                <p class="color-hex">#3B4252</p>
+            </div>
+            <div class="color-panel nord2">
+                <p class="color-label nord2">nord2</p>
+                <p class="color-hex">#434C5E</p>
+            </div>
+            <div class="color-panel nord3">
+                <p class="color-label nord3">nord3</p>
+                <p class="color-hex">#4C566A</p>
+            </div>
+        </div>
+    </div>
+    <div>
+    <div class="label">
+        <p class="title">Snow Storm</p>
+        <div class=" color-panel nord4">
+            <p class="color-label">nord4</p>
+            <p class="color-hex">#D8DEE9</p>
+        </div>
+        <div class="color-panel nord5">
+            <p class="color-label">nord5</p>
+                <p class="color-hex">#E5E9F0</p>
+        </div>
+        <div class="color-panel nord6">
+            <p class="color-label">nord6</p>
+                <p class="color-hex">#ECEFF4</p>
+        </div>
+    </div>
+        
+    </div>
+    <div>
+        <div class="label">
+            <p class="title">Frost</p>
+            <div class="color-panel nord7">
+                <p class="color-label">nord7</p>
+                <p class="color-hex">#8FBCBB</p>
+            </div>
+            <div class="color-panel nord8">
+                <p class="color-label">nord8</p>
+                <p class="color-hex">#88C0D0</p>
+            </div>
+            <div class="color-panel nord9">
+                <p class="color-label">nord9</p>
+                <p class="color-hex">#81A1C1</p>
+            </div>
+            <div class="color-panel nord10">
+                <p class="color-label">nord10</p>
+                <p class="color-hex">#5E81AC</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="label">
+            <p class="title">Aurora</p>
+            <div class="color-panel nord11">
+                <p class="color-label">nord11</p>
+                <p class="color-hex">#BF616A</p>
+            </div>
+            <div class="color-panel nord12">
+                <p class="color-label">nord12</p>
+                <p class="color-hex">#D08770</p>
+            </div>
+            <div class="color-panel nord13">
+                <p class="color-label">nord13</p>
+                <p class="color-hex">#EBCB8B</p>
+            </div>
+            <div class="color-panel nord14">
+                <p class="color-label">nord14</p>
+                <p class="color-hex">#A3BE8C</p>
+            </div>
+            <div class="color-panel nord15">
+                <p class="color-label">nord15</p>
+                <p class="color-hex">#B48EAD</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="color-explained">
+        <p id="cexp">Swatches explained</p>
+    <div class="explained">
+        <div class="explained info">
+        <p class="title">Polar Night</p>
+        <p>Polar Night is made up of four darker colors that are commonly used for 
+            base elements like backgrounds or text color in bright ambiance designs.
+        </p>
+        <button class="collapsible">nord0</button>
+        <div class="content">
+                <p><span>The origin color or the Polar Night palette.</span><br><br>
+
+                    For dark ambiance designs, it is used for background and area coloring while
+                     it's not used for syntax highlighting at all because otherwise it would collide with the same background 
+                     color. <br><br>
+                    
+                    For bright ambiance designs, it is used for base elements like plain text, the text editor 
+                    caret and reserved syntax characters like curly- and square brackets.
+                    It is rarely used for passive UI elements like borders, but might be 
+                    possible to achieve a higher contrast and better visual distinction (harder/not flat) between larger 
+                    components.
+                </p>
+            </div>
+            <button class="collapsible">nord1</button>
+            <div class="content">
+                <p><span>A brighter shade color based on nord0</span><br><br>
+
+                    For dark ambiance designs it is used for elevated, more prominent or focused UI elements like <br><br>
+
+                    <ul>
+                        <li>status bars and text editor gutters</li>
+                        <li>panels, modals and floating popups like notifications or auto completion</li>
+                        <li>user interaction/form components like buttons, text/select fields or checkboxes</li>
+                    </ul>
+                </p>
+                <p>
+                    It also works fine for more inconspicuous and passive elements like borders or as dropshadow 
+                    between different components.
+                    There's currently no official port project that makes use of it for syntax highlighting.
+                    <br><br>
+                    For bright ambiance designs, it is used for more subtle/inconspicuous UI text elements that do not need so 
+                    much visual attention.
+                    Other use cases are also state animations like a more brighter text color when a button is hovered, 
+                    active or focused.
+                </p>
+            </div>
+            <button class="collapsible">nord2</button>
+            <div class="content">
+                <p><span>An even more brighter shade color of nord0</span><br><br>
+
+                    For dark ambiance designs, it is used to colorize the currently active text editor line as well as selection- 
+                    and text highlighting color.
+                    For both bright & dark ambiance designs it can also be used as an brighter 
+                    variant for the same target elements like nord1.</p>
+                </div>
+            <button class="collapsible">nord3</button>
+            <div class="content">
+                <p><span>The brightest shade color based on nord0</span><br><br>
+
+                    For dark ambiance designs, it is used for UI elements like indent- and wrap guide marker.
+                    In the context of code syntax highlighting it is used for comments and invisible/non-printable 
+                    characters. <br><br>
+                    
+                    For bright ambiance designs, it is, next to nord1 and nord2 as darker variants, also used for the most 
+                    subtle/inconspicuous UI text elements that do not need so much visual attention.
+                </p>
+        </div>
+        
+        </div>
+        <div class="explained info">
+            <p class="title">Snow Storm</p>
+        <p>Snow Storm is made up of three bright colors that are commonly used for text colors or base UI elements in bright ambiance designs.</p>
+        <button class="collapsible">nord4</button>
+        <div class="content">
+                <p><span>The origin color or the Snow Storm palette.</span><br><br>
+
+                    For dark ambiance designs, it is used for UI elements like the text editor caret.
+                    In the context of syntax highlighting it is used as text color for variables, constants, 
+                    attributes and fields.<br><br>
+                    For bright ambiance designs, it is used for elevated, more prominent or focused UI elements like
+                    <br><br>
+                    <ul>
+                        <li>status bars and text editor gutters</li>
+                        <li>panels, modals and floating popups like notifications or auto completion</li>
+                        <li>user interaction/form components like buttons, text/select fields or checkboxes</li>
+                    </ul>
+                    </p><p>
+                    <br>
+                    It also works fine for more inconspicuous and passive elements like borders or as dropshadow 
+                    between different components.
+                    In the context of syntax highlighting it's not used at all.
+                </p>
+            </div>
+            <button class="collapsible">nord5</button>
+            <div class="content">
+                <p><span>A brighter shade color of nord4</span><br><br>
+
+                    For dark ambiance designs, it is used for more subtle/inconspicuous UI text elements that do not need so 
+                    much visual attention.
+                    Other use cases are also state animations like a more brighter text 
+                    color when a button is hovered, active or focused. <br><br>
+
+                    For bright ambiance designs, it is used to colorize the currently active text editor 
+                    line as well as selection- and text highlighting color.
+                </p>
+            </div>
+            <button class="collapsible">nord6</button>
+            <div class="content">
+                <p><span>The brightest shade color based on nord4.</span><br><br>
+
+                    For dark ambiance designs, it is used for elevated UI text elements that require more visual attention.
+                    In the context of syntax highlighting it is used as text color for plain text as well as 
+                    reserved and structuring 
+                    syntax characters like curly- and square brackets.<br><br>
+
+                    For bright ambiance designs, it is used as background and area coloring while it's not used for syntax 
+                    highlighting at all because otherwise it would collide with the same background color.
+                
+                </p>
+                </div>
+        </div>
+        <div class="explained info">
+            <p class="title">Frost</p>
+        <p>Frost can be described as the heart palette of Nord, a group of four bluish colors that are commonly used for primary UI component 
+            and text highlighting and essential code syntax elements.</p>
+            <button class="collapsible">nord7</button>
+            <div class="content">
+                    <p><span>A calm and highly contrasted color reminiscent of frozen polar water.</span><br><br>
+    
+                        Used for UI elements that should, next to the primary accent color nord8, stand out and get more visual attention.
+                        In the context of syntax highlighting it is used for classes, types and primitives.<br><br>
+                        For bright ambiance designs, it is used for elevated, more prominent or focused UI elements like
+                    </p>
+                </div>
+                <button class="collapsible">nord8</button>
+                <div class="content">
+                    <p><span>The bright and shiny primary accent color reminiscent of pure and clear ice.</span><br><br>
+    
+                        Used for primary UI elements with main usage purposes that require the most visual attention.
+                        In the context of syntax highlighting it is used for declarations, calls and execution statements 
+                        of functions, methods and routines.<br><br>
+
+                    </p>
+                </div>
+                <button class="collapsible">nord9</button>
+                <div class="content">
+                    <p><span>A more darkened and less saturated color reminiscent of arctic waters.</span><br><br>
+    
+                        Used for secondary UI elements that also require more visual attention than other elements.
+                        In the context of syntax highlighting it is used for language specific, syntactic and 
+                        reserved keywords as well as
+                    </p>
+                    </div>
+                    <button class="collapsible">nord10</button>
+                    <div class="content">
+                        <p><span>A dark and intensive color reminiscent of the deep arctic ocean.</span><br><br>
+        
+                            Used for tertiary UI elements that require more visual attention than default elements.
+                            In the context of syntax highlighting it is used for pragmas, comment keywords and pre-processor statements.
+                        
+                        </p>
+                        </div>
+        </div>
+        <div class="explained info">
+            <p class="title">Aurora</p>
+        <p>Aurora consists of five colorful components reminiscent of the „Aurora borealis“, sometimes referred to as polar lights or northern 
+            lights.</p>
+            <button class="collapsible">nord11</button>
+            <div class="content">
+                    <p>Used for UI elements that are rendering error states like linter markers and the highlighting of Git diff deletions.
+                        In the context of syntax highlighting it is used to override the highlighting of 
+                        syntax elements that are detected as errors.
+                    </p>
+                </div>
+                <button class="collapsible">nord12</button>
+                <div class="content">
+                    <p>Rarely used for UI elements, but it may indicate a more advanced or dangerous functionality.
+                        In the context of syntax highlighting it is used for special syntax elements like annotations and decorators.
+
+                    </p>
+                </div>
+                <button class="collapsible">nord13</button>
+                <div class="content">
+                    <p>Used for UI elements that are rendering warning states like linter markers and the highlighting of Git diff modifications.
+                        In the context of syntax highlighting it is used to override the highlighting of syntax elements that are detec
+                        ted as warnings as well as escape characters and within regular expressions.
+                    </p>
+                    </div>
+                    <button class="collapsible">nord14</button>
+                    <div class="content">
+                        <p>Used for UI elements that are rendering success states and visualizations and the highlighting of Git diff additions.
+                            In the context of syntax highlighting it is used as main color for strings of any type like double/
+                            single quoted or interpolated.
+                        </p>
+                        </div>
+                        <button class="collapsible">nord15</button>
+                        <div class="content">
+                            <p>
+                                Rarely used for UI elements, but it may indicate a more uncommon functionality.
+                                In the context of syntax highlighting it is used as main color for numbers of 
+                                any type like integers and floating point numbers.
+                            </p>
+                            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+    <section class="Fonts">
+        <h2 id="fonts">Fonts</h2>
+        <h3>Font weights</h3>
+        <p>Different font weights</p>
+        <h3>Headings</h3>
+        <p>The different Headings</p>
+
+        <p>p - example</p>
+        <p>List example</p>
+    </section>
+    <section class="buttons">
+        <h2>Buttons</h2>
+        <p>Buttons</p>            
+    </section>
+</section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
