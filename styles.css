@@ -242,9 +242,13 @@ body {
 /*Color explained*/
 
 .color-explained {
-    text-align: left;
+    text-align: center;
     width: 100%;
     max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
   }
 
 .explained {
@@ -255,7 +259,7 @@ body {
     border: 1px solid transparent;
     border-radius: 3px;
     position: relative;
-    justify-content: left;
+    justify-content: center;
     min-height: 200px;
 }
 
@@ -302,13 +306,16 @@ body {
 
 #cexp {
     padding-top: 25px;
+    display: inline-block;
     padding-bottom: 20px;
     font-size: 20px;
     letter-spacing: 2.85px;
     line-height: 25px;
     font-family: "mulilight";
-    text-align: center;
-    width: 80%;
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+    margin-left: 25px;
 }
 
 
