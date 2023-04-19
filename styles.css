@@ -59,17 +59,11 @@ nav #logo {
 
 /* <----------------- body -----------------> */
 
-h2 {
-    text-decoration: none;
-    margin: auto 20px;
-    font-family: "muli-light";
-}
-
 body {
     margin: auto;
     max-width: 100%;
     color: #f2f2f2;
-    background-color: #2E3440;
+    background-color: white;
     font-family: "mulilight";
 }
 
@@ -256,26 +250,25 @@ body {
 
 .color-explained {
     text-align: center;
-    width: 100%;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     position: relative;
     padding-bottom: 50px;
     box-shadow: 0 1px #4C566A;
     margin-left: 25px;
+    margin-right: 25px;
   }
 
 .explained {
     min-width: 48%;
-    margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid transparent;
     border-radius: 3px;
     position: relative;
-    justify-content: left;
+    justify-content: center;
     min-height: 500px;
 }
 
@@ -427,4 +420,276 @@ button {
     float: left;
     line-height: 25px;
     margin-right: 10px;
+}
+
+.weights {
+    margin-left: 25px;
+    padding-top: 25px;
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 2.85px;
+    line-height: 25px;
+    font-family: "mulilight";
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.weights::before {
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: #f2f2f2;
+    margin-top: 11px;
+    font-family: "muliextralight";
+    position: static;
+    float: left;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.fweights {
+    margin-left: 25px;
+    margin-top: 0;
+    margin-right: 25px;
+    box-shadow: 0 1px #4C566A;
+    justify-content: center;
+}
+
+.letterboxes {
+    justify-content: center;
+    margin-left: 20%;
+    padding-bottom: 25px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.aa {
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 191px;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.aa .muli {
+    font-size: 24px;
+    margin-top: 0;
+    font-family: "muliregular";
+    letter-spacing: 0.72px;
+    line-height: 35px;
+    color: #979797;
+}
+
+.aa .letter {
+    font-size: 100px;
+    margin-bottom: 0;
+    line-height: 100px;
+    letter-spacing: 0;
+}
+
+.extralight {
+    font-family: "muliextralight";
+}
+
+.light {
+    font-family: "mulilight";
+}
+
+.regular {
+    font-family: "muliregular";
+}
+
+.semibold {
+    font-family: "mulisemibold";
+}
+
+.bold {
+    font-family: "mulibold";
+}
+
+.extrabold {
+    font-family: "muliextrabold";
+}
+
+.headings {
+    margin-left: 25px;
+    font-family: "mulibold";
+}
+
+.head {
+    font-family: "mulibold";
+    margin-right: 200px;
+    margin-left: 200px;
+    height: auto;
+}
+
+.h1::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #646464;
+    font-family: "muliextralight";
+    position: static;
+    float: center;
+    margin-bottom: 10px;
+}
+
+.h1info {
+    display: block;
+    float: right;
+    font-family: "muliregular";
+    position: static;
+    font-size: 20px;
+    line-height: 60px;
+    margin-right: 1px;
+}
+
+.h1 {
+    font-size: 60px !important;
+    letter-spacing: 0.96px;
+    line-height: 61px;
+}
+
+.h2::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #646464;
+    font-family: "muliextralight";
+    position: static;
+    float: center;
+}
+
+.h2info {
+    display: block;
+    float: right;
+    font-family: "muliregular";
+    position: static;
+    font-size: 20px;
+    margin-right: 1px;
+}
+
+.h2 {
+    font-size: 48px !important;
+    letter-spacing: 0.768px;
+    line-height: 48px;
+}
+
+
+.h3::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #646464;
+    font-family: "muliextralight";
+    position: static;
+    float: center;
+}
+
+.h3info {
+    display: block;
+    float: right;
+    font-family: "muliregular";
+    position: static;
+    font-size: 20px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+
+}
+
+.h3 {
+    font-size: 40px;
+    letter-spacing: 0.64px;
+    line-height: 40px;
+    display: block;
+}
+
+.h4::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #646464;
+    font-family: "muliextralight";
+    position: static;
+    float: center;
+}
+
+.h4info {
+    display: block;
+    float: right;
+    font-family: "muliregular";
+    position: static;
+    font-size: 20px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+
+}
+
+.h4 {
+    font-size: 30px;
+    letter-spacing: 0.48px;
+}
+
+.h5::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #646464;
+    font-family: "muliextralight";
+    position: static;
+    float: center;
+}
+
+.h5info {
+    display: block;
+    float: right;
+    font-family: "muliregular";
+    position: static;
+    font-size: 20px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+
+}
+
+.h5 {
+    font-size: 24px;
+    letter-spacing: 0.384px;
+}
+
+.h6::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #646464;
+    font-family: "muliextralight";
+    position: static;
+    float: center;
+}
+
+.h6info {
+    display: block;
+    float: right;
+    font-family: "muliregular";
+    position: static;
+    font-size: 20px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+
+}
+
+.h6 {
+    font-size: 18px;
+    letter-spacing: 0.288px;
 }
