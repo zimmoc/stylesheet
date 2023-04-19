@@ -5,7 +5,7 @@ nav {
     width:100%;
     display: inline-block;
     height: 50px;
-    background-color: #373737;
+    background-color: #3B4252;
     text-align: center;
     line-height: 38px;
     margin: auto;
@@ -68,13 +68,13 @@ body {
     margin: auto;
     max-width: 100%;
     color: #f2f2f2;
-    background-color: #151515;
+    background-color: #2E3440;
     font-family: "mulilight";
 }
 
 .container {
     margin: auto;
-    background: #151515;
+    background: #2E3440;
     max-width:1366px;
 }
 
@@ -289,10 +289,16 @@ body {
     margin-bottom: 20px;
     margin-right: 20px;
     min-height: 200px;
+    padding-bottom: 20px;
     font-size: 16px;
     letter-spacing: 0.108px;
     line-height: 24px;
-    min-height: 500;
+    border: 1px hidden white;
+    background-color: #3B4252;
+}
+
+.explained .shortinfo {
+    min-height: 100px;
 }
 
 .info p {
@@ -339,17 +345,18 @@ button {
 
 }
 .collapsible {
-    background-color: transparent;
+    background-color: #434C5E;
     cursor: pointer;
-    border: 2px solid #88C0D0;
+    border: 2px solid #4C566A;
     border-radius: 5px;
     font-size: 18px;
     width: 80%;
     color: #f2f2f2;
     letter-spacing: 0.72px;
     font-family: "mulilight";
-    margin: 7px;
+    margin: 6px;
     line-height: 28px;
+    float: center;
   }
   
   .active, .collapsible:hover {
