@@ -261,7 +261,7 @@ body {
     flex-wrap: wrap;
     justify-content: left;
     position: relative;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     box-shadow: 0 1px #4C566A;
     margin-left: 25px;
   }
@@ -286,7 +286,6 @@ body {
     color: #F2F2F2;
     position: relative;
     margin-top: 20px;
-    margin-bottom: 20px;
     margin-right: 20px;
     min-height: 200px;
     padding-bottom: 20px;
